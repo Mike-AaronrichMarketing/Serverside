@@ -7,6 +7,8 @@ If email.value.Contains("ericjonesmyemail@gmail.com") Then
 			Response.Redirect("error")
 		ElseIf email.value.Contains("eric.jones.z.mail@gmail.com") Then
 			Response.Redirect("error")
+	ElseIf email.value.Contains("ericjonesmyemail@gmail.com") Then
+			Response.Redirect("error")
 
 		Else
 
